@@ -12,6 +12,7 @@ The new vector interpretation uses a tower, three signal rings, a star and a blo
 | --- | --- | --- |
 | `branding/assets/logo.svg` | `references/hasanara-logo.svg`; pack `product/logo.svg` | Header and home emblem |
 | `branding/assets/favicon.svg` | `references/hasanara-favicon.svg`; pack `product/favicon.svg` | Tab icon; startup renderer creates the touch icon |
+| `frontend/public/icon.svg`, `frontend/public/favicon.ico` | Copies of the tower favicon; the `.ico` holds 16, 32, 48 and 64px renders | `/favicon.ico` for clients that ask for it directly, and the icon shown before the site profile loads |
 | `branding/assets/social-card.svg` | `references/hasanara-social-card.svg`; pack `product/social-card.svg` | Startup renderer creates the 1200×630 PNG social preview |
 | `branding/assets/badge.svg` | Full emblem geometry with a charcoal square background | Standalone square emblem |
 
