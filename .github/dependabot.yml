@@ -25,6 +25,11 @@ updates:
       # generated API types that api:check compares byte for byte. Update it
       # by hand together with the reformatted files.
       - dependency-name: prettier
+      # axe-core 4.14 reports label-content-name-mismatch on the header home
+      # link, which fails the browser accessibility matrix. Fix the link's
+      # accessible name first, then update both packages together.
+      - dependency-name: axe-core
+      - dependency-name: '@axe-core/react'
 
   - package-ecosystem: npm
     directory: /e2e
